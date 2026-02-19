@@ -1,0 +1,67 @@
+.card-wrapper {
+    perspective: 1000px; /* Required for the 3D effect to work */
+  }
+  
+  .project-card {
+    background: linear-gradient(145deg, #1e293b, #0f172a);
+    border: 1px solid #334155;
+    border-radius: 16px;
+    padding: 30px;
+    height: 100%;
+    box-sizing: border-box;
+    transition: transform 0.1s ease-out, box-shadow 0.3s ease;
+    transform-style: preserve-3d;
+    cursor: pointer;
+  }
+  
+  .project-card:hover {
+    box-shadow: 0 20px 40px rgba(56, 189, 248, 0.15);
+    border-color: var(--accent);
+  }
+  
+  /* Push the content forward slightly to enhance the 3D illusion */
+  .card-content {
+    transform: translateZ(30px); 
+  }
+  
+  .project-card h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  
+  .project-card p {
+    color: var(--text-secondary);
+    line-height: 1.6;
+  }
+  
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .tag {
+    background: rgba(56, 189, 248, 0.1);
+    color: var(--accent);
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+  
+  .view-btn {
+    display: inline-block;
+    margin-top: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px solid var(--accent);
+    padding-bottom: 2px;
+    transition: opacity 0.3s;
+  }
+  
+  .view-btn:hover {
+    opacity: 0.8;
+  }
