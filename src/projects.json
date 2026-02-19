@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+      "title": "game/the whispering depths",
+      "tech": "vanilla js",
+      "url": "https://quaint-racoon.github.io/the-whispering-depths/"
+    },
+    {
+      "id": 2,
+      "title": "Mind Reading Genie!",
+      "tech": "HTML, JS, CSS",
+      "url": "https://quaint-racoon.github.io/dumb-things"
+    },
+    {
+      "id": 3,
+      "title": "Live ChatRoom!",
+      "tech": "HTML, JS, CSS, and Firebase",
+      "url": "https://codepen.io/alt-3/full/xbwPZmR"
+    },
+    {
+        "id": 4,
+        "title": "cat image generator!",
+        "tech": "HTML, JS, CSS,api",
+        "url": "https://codepen.io/alt-3/full/JjQNLYQ"
+    },
+    {
+        "id": 5,
+        "title": "Elevator Music Appreciation Society",
+        "tech": "HTML, JS, CSS",
+        "url": "https://codepen.io/alt-3/full/WNqwmQv"
+    }
+  ]
